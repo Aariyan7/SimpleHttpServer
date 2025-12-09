@@ -1,0 +1,268 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        D:/SimpleHttpServer/out/build/x64-Debug/CMakeFiles/3.30.5-msvc23/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/SimpleHttpServer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-y9jt21"
+      binary: "D:/SimpleHttpServer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-y9jt21"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/SimpleHttpServer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-y9jt21'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_33021
+        [1/2] C:\\Users\\AARIYA~1\\DOWNLO~1\\GCC-15~1.0-U\\bin\\C__~1.EXE   -v -o CMakeFiles/cmTC_33021.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp"
+        Using built-in specs.
+        COLLECT_GCC=C:\\Users\\AARIYA~1\\DOWNLO~1\\GCC-15~1.0-U\\bin\\C__~1.EXE
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-src/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-bootstrap --enable-targets=all --enable-languages=c,c++,lto --enable-seh-exceptions --with-arch=core2 --with-tune=generic --enable-threads=posix --disable-nls --disable-libstdcxx-verbose --disable-libstdcxx-pch --enable-clocale=generic --enable-shared=libstdc++ --enable-static --enable-libatomic --enable-fully-dynamic-string --enable-lto --enable-plugins --enable-libgomp --with-dwarf2 --enable-mingw-wildcard=platform --disable-win32-registry --enable-version-specific-runtime-libs --enable-checking=release --enable-default-compressed-debug-sections-algorithm=zstd --disable-cloog-version-check --enable-cloog-backend=isl --with-gmp=/home/vm/mingw/host/x86_64-w64-mingw32 --with-mpfr=/home/vm/mingw/host/x86_64-w64-mingw32 --with-mpc=/home/vm/mingw/host/x86_64-w64-mingw32 --with-isl=/home/vm/mingw/host/x86_64-w64-mingw32 --with-cloog=/home/vm/mingw/host/x86_64-w64-mingw32 --with-system-zlib=/home/vm/mingw/host/x86_64-w64-mingw32 --with-zstd --prefix=/mingw64-64 --libdir=/mingw64-64/x86_64-w64-mingw32/lib --libexecdir=/mingw64-64/x86_64-w64-mingw32/lib --with-native-system-header-dir=/x86_64-w64-mingw32/include
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_33021.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=core2' '-dumpdir' 'CMakeFiles/cmTC_33021.dir/'
+         C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/ -D__USE_MINGW_ACCESS -D_REENTRANT C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_33021.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=core2 -version -o C:\\Users\\AARIYA~1\\AppData\\Local\\Temp\\cc1FBH6N.s
+        GNU C++17 (GCC) version 15.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.2.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/x86_64-w64-mingw32/lib/gcc/../../../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++"
+        ignoring duplicate directory "C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/x86_64-w64-mingw32/lib/gcc/../../../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32"
+        ignoring duplicate directory "C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/x86_64-w64-mingw32/lib/gcc/../../../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward"
+        ignoring duplicate directory "C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/x86_64-w64-mingw32/lib/gcc/../../../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include"
+        ignoring duplicate directory "C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/x86_64-w64-mingw32/lib/gcc/../../../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed"
+        ignoring duplicate directory "C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/x86_64-w64-mingw32/lib/gcc/../../../include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++
+         C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32
+         C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward
+         C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include
+         C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed
+         C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/x86_64-w64-mingw32/lib/gcc/../../../include
+         C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/x86_64-w64-mingw32/lib/gcc/../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: 064ce8ddbf75d0fe24528c14d21822b3
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_33021.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=core2' '-dumpdir' 'CMakeFiles/cmTC_33021.dir/'
+         C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_33021.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\AARIYA~1\\AppData\\Local\\Temp\\cc1FBH6N.s
+        GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45
+        COMPILER_PATH=C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/;C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/;C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../../x86_64-w64-mingw32/lib//../../x86_64-w64-mingw32/lib/;C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../..//../../x86_64-w64-mingw32/lib/;C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../../x86_64-w64-mingw32/lib/;C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../\x0d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_33021.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=core2' '-dumpdir' 'CMakeFiles/cmTC_33021.dir/CMakeCXXCompilerABI.cpp.'\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\AARIYA~1\\DOWNLO~1\\GCC-15~1.0-U\\bin\\C__~1.EXE  -v -Wl,-v CMakeFiles/cmTC_33021.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_33021.exe -Wl,--out-implib,libcmTC_33021.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        Using built-in specs.
+        COLLECT_GCC=C:\\Users\\AARIYA~1\\DOWNLO~1\\GCC-15~1.0-U\\bin\\C__~1.EXE
+        COLLECT_LTO_WRAPPER=C:/Users/Aariyan\\ O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-src/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-bootstrap --enable-targets=all --enable-languages=c,c++,lto --enable-seh-exceptions --with-arch=core2 --with-tune=generic --enable-threads=posix --disable-nls --disable-libstdcxx-verbose --disable-libstdcxx-pch --enable-clocale=generic --enable-shared=libstdc++ --enable-static --enable-libatomic --enable-fully-dynamic-string --enable-lto --enable-plugins --enable-libgomp --with-dwarf2 --enable-mingw-wildcard=platform --disable-win32-registry --enable-version-specific-runtime-libs --enable-checking=release --enable-default-compressed-debug-sections-algorithm=zstd --disable-cloog-version-check --enable-cloog-backend=isl --with-gmp=/home/vm/mingw/host/x86_64-w64-mingw32 --with-mpfr=/home/vm/mingw/host/x86_64-w64-mingw32 --with-mpc=/home/vm/mingw/host/x86_64-w64-mingw32 --with-isl=/home/vm/mingw/host/x86_64-w64-mingw32 --with-cloog=/home/vm/mingw/host/x86_64-w64-mingw32 --with-system-zlib=/home/vm/mingw/host/x86_64-w64-mingw32 --with-zstd --prefix=/mingw64-64 --libdir=/mingw64-64/x86_64-w64-mingw32/lib --libexecdir=/mingw64-64/x86_64-w64-mingw32/lib --with-native-system-header-dir=/x86_64-w64-mingw32/include
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.0 (GCC) 
+        COMPILER_PATH=C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/;C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/;C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../../x86_64-w64-mingw32/lib//../../x86_64-w64-mingw32/lib/;C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../..//../../x86_64-w64-mingw32/lib/;C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../../x86_64-w64-mingw32/lib/;C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_33021.exe' '-mtune=generic' '-march=core2' '-dumpdir' 'cmTC_33021.'
+         C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\AARIYA~1\\AppData\\Local\\Temp\\ccZIH0XX.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_33021.exe C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../../x86_64-w64-mingw32/lib//../../x86_64-w64-mingw32/lib/crt2.o C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc -LC:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../../x86_64-w64-mingw32/lib//../../x86_64-w64-mingw32/lib -LC:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../..//../../x86_64-w64-mingw32/lib -LC:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../../x86_64-w64-mingw32/lib -LC:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_33021.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_33021.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        collect2 version 15.2.0
+        C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\AARIYA~1\\AppData\\Local\\Temp\\ccZIH0XX.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_33021.exe C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../../x86_64-w64-mingw32/lib//../../x86_64-w64-mingw32/lib/crt2.o C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc -LC:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../../x86_64-w64-mingw32/lib//../../x86_64-w64-mingw32/lib -LC:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../..//../../x86_64-w64-mingw32/lib -LC:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../../x86_64-w64-mingw32/lib -LC:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_33021.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_33021.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        GNU ld (GNU Binutils) 2.45
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_33021.exe' '-mtune=generic' '-march=core2' '-dumpdir' 'cmTC_33021.'\x0d
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++]
+          add: [C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32]
+          add: [C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward]
+          add: [C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+          add: [C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+          add: [C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/x86_64-w64-mingw32/lib/gcc/../../../include]
+          add: [C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/x86_64-w64-mingw32/lib/gcc/../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++] ==> [C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++]
+        collapse include dir [C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32] ==> [C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32]
+        collapse include dir [C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward] ==> [C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward]
+        collapse include dir [C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include] ==> [C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+        collapse include dir [C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed] ==> [C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+        collapse include dir [C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/x86_64-w64-mingw32/lib/gcc/../../../include] ==> [C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/include]
+        collapse include dir [C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/x86_64-w64-mingw32/lib/gcc/../../../x86_64-w64-mingw32/include] ==> [C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/x86_64-w64-mingw32/include]
+        implicit include dirs: [C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++;C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32;C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward;C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include;C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed;C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/include;C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'D:/SimpleHttpServer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-y9jt21']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_33021]
+        ignore line: [[1/2] C:\\Users\\AARIYA~1\\DOWNLO~1\\GCC-15~1.0-U\\bin\\C__~1.EXE   -v -o CMakeFiles/cmTC_33021.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Users\\AARIYA~1\\DOWNLO~1\\GCC-15~1.0-U\\bin\\C__~1.EXE]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-src/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-bootstrap --enable-targets=all --enable-languages=c c++ lto --enable-seh-exceptions --with-arch=core2 --with-tune=generic --enable-threads=posix --disable-nls --disable-libstdcxx-verbose --disable-libstdcxx-pch --enable-clocale=generic --enable-shared=libstdc++ --enable-static --enable-libatomic --enable-fully-dynamic-string --enable-lto --enable-plugins --enable-libgomp --with-dwarf2 --enable-mingw-wildcard=platform --disable-win32-registry --enable-version-specific-runtime-libs --enable-checking=release --enable-default-compressed-debug-sections-algorithm=zstd --disable-cloog-version-check --enable-cloog-backend=isl --with-gmp=/home/vm/mingw/host/x86_64-w64-mingw32 --with-mpfr=/home/vm/mingw/host/x86_64-w64-mingw32 --with-mpc=/home/vm/mingw/host/x86_64-w64-mingw32 --with-isl=/home/vm/mingw/host/x86_64-w64-mingw32 --with-cloog=/home/vm/mingw/host/x86_64-w64-mingw32 --with-system-zlib=/home/vm/mingw/host/x86_64-w64-mingw32 --with-zstd --prefix=/mingw64-64 --libdir=/mingw64-64/x86_64-w64-mingw32/lib --libexecdir=/mingw64-64/x86_64-w64-mingw32/lib --with-native-system-header-dir=/x86_64-w64-mingw32/include]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_33021.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=core2' '-dumpdir' 'CMakeFiles/cmTC_33021.dir/']
+        ignore line: [ C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/ -D__USE_MINGW_ACCESS -D_REENTRANT C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_33021.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=core2 -version -o C:\\Users\\AARIYA~1\\AppData\\Local\\Temp\\cc1FBH6N.s]
+        ignore line: [GNU C++17 (GCC) version 15.2.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.2.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/x86_64-w64-mingw32/lib/gcc/../../../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++"]
+        ignore line: [ignoring duplicate directory "C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/x86_64-w64-mingw32/lib/gcc/../../../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32"]
+        ignore line: [ignoring duplicate directory "C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/x86_64-w64-mingw32/lib/gcc/../../../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward"]
+        ignore line: [ignoring duplicate directory "C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/x86_64-w64-mingw32/lib/gcc/../../../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include"]
+        ignore line: [ignoring duplicate directory "C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/x86_64-w64-mingw32/lib/gcc/../../../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/x86_64-w64-mingw32/lib/gcc/../../../include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++]
+        ignore line: [ C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32]
+        ignore line: [ C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward]
+        ignore line: [ C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+        ignore line: [ C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+        ignore line: [ C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/x86_64-w64-mingw32/lib/gcc/../../../include]
+        ignore line: [ C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/x86_64-w64-mingw32/lib/gcc/../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 064ce8ddbf75d0fe24528c14d21822b3]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_33021.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=core2' '-dumpdir' 'CMakeFiles/cmTC_33021.dir/']
+        ignore line: [ C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_33021.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\AARIYA~1\\AppData\\Local\\Temp\\cc1FBH6N.s]
+        ignore line: [GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45]
+        ignore line: [COMPILER_PATH=C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/]
+        ignore line: [C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/]
+        ignore line: [C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../../x86_64-w64-mingw32/lib//../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../..//../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_33021.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=core2' '-dumpdir' 'CMakeFiles/cmTC_33021.dir/CMakeCXXCompilerABI.cpp.'\x0d]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\AARIYA~1\\DOWNLO~1\\GCC-15~1.0-U\\bin\\C__~1.EXE  -v -Wl -v CMakeFiles/cmTC_33021.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_33021.exe -Wl --out-implib libcmTC_33021.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Users\\AARIYA~1\\DOWNLO~1\\GCC-15~1.0-U\\bin\\C__~1.EXE]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/Users/Aariyan\\ O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-src/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-bootstrap --enable-targets=all --enable-languages=c c++ lto --enable-seh-exceptions --with-arch=core2 --with-tune=generic --enable-threads=posix --disable-nls --disable-libstdcxx-verbose --disable-libstdcxx-pch --enable-clocale=generic --enable-shared=libstdc++ --enable-static --enable-libatomic --enable-fully-dynamic-string --enable-lto --enable-plugins --enable-libgomp --with-dwarf2 --enable-mingw-wildcard=platform --disable-win32-registry --enable-version-specific-runtime-libs --enable-checking=release --enable-default-compressed-debug-sections-algorithm=zstd --disable-cloog-version-check --enable-cloog-backend=isl --with-gmp=/home/vm/mingw/host/x86_64-w64-mingw32 --with-mpfr=/home/vm/mingw/host/x86_64-w64-mingw32 --with-mpc=/home/vm/mingw/host/x86_64-w64-mingw32 --with-isl=/home/vm/mingw/host/x86_64-w64-mingw32 --with-cloog=/home/vm/mingw/host/x86_64-w64-mingw32 --with-system-zlib=/home/vm/mingw/host/x86_64-w64-mingw32 --with-zstd --prefix=/mingw64-64 --libdir=/mingw64-64/x86_64-w64-mingw32/lib --libexecdir=/mingw64-64/x86_64-w64-mingw32/lib --with-native-system-header-dir=/x86_64-w64-mingw32/include]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/]
+        ignore line: [C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/]
+        ignore line: [C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../../x86_64-w64-mingw32/lib//../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../..//../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_33021.exe' '-mtune=generic' '-march=core2' '-dumpdir' 'cmTC_33021.']
+        ignore line: [ C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\AARIYA~1\\AppData\\Local\\Temp\\ccZIH0XX.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_33021.exe C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../../x86_64-w64-mingw32/lib//../../x86_64-w64-mingw32/lib/crt2.o C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc -LC:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../../x86_64-w64-mingw32/lib//../../x86_64-w64-mingw32/lib -LC:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../..//../../x86_64-w64-mingw32/lib -LC:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../../x86_64-w64-mingw32/lib -LC:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_33021.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_33021.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [collect2 version 15.2.0]
+        ignore line: [C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\AARIYA~1\\AppData\\Local\\Temp\\ccZIH0XX.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_33021.exe C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../../x86_64-w64-mingw32/lib//../../x86_64-w64-mingw32/lib/crt2.o C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc -LC:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../../x86_64-w64-mingw32/lib//../../x86_64-w64-mingw32/lib -LC:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../..//../../x86_64-w64-mingw32/lib -LC:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../../x86_64-w64-mingw32/lib -LC:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v CMakeFiles/cmTC_33021.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_33021.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/bin/../x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [GNU ld (GNU Binutils) 2.45]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_33021.exe' '-mtune=generic' '-march=core2' '-dumpdir' 'cmTC_33021.'\x0d]
+        ignore line: []
+        ignore line: []
+        linker tool for 'CXX': C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/x86_64-w64-mingw32/bin/ld.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Users/Aariyan O/Downloads/gcc-15.2.0-gdb-16.3.90.20250511-binutils-2.45-mingw-w64-v13.0.0-ucrt/x86_64-w64-mingw32/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.45
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMakeLists.txt:8 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "D:/SimpleHttpServer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-59olrz"
+      binary: "D:/SimpleHttpServer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-59olrz"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/SimpleHttpServer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-59olrz'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_edd84
+        [1/2] C:\\Users\\AARIYA~1\\DOWNLO~1\\GCC-15~1.0-U\\bin\\C__~1.EXE -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_edd84.dir/src.cxx.obj -c D:/SimpleHttpServer/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-59olrz/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\AARIYA~1\\DOWNLO~1\\GCC-15~1.0-U\\bin\\C__~1.EXE   CMakeFiles/cmTC_edd84.dir/src.cxx.obj -o cmTC_edd84.exe -Wl,--out-implib,libcmTC_edd84.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...

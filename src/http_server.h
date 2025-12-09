@@ -1,24 +1,19 @@
+#ifndef HTTP_SERVER_H
+#define HTTP_SERVER_H
+#include <string>
 
-#ifndef HTTP_SERVER_H_
-#define HTTP_SERVER_H_
+class HttpServer {
+    private:
+        
+    public:
+        std::string host;
+        int port;
+        HttpServer(std::string host, int port);
+        ~HttpServer() = default;
 
-#include <sys/socket.h>
-
-
-namespace simple_http_server {
-    // This defines the maximum number of bytes our socket can handle each time
-    constexpr size_t kMaxBufferSize = 4096;
-
-    struct EventData { // This defines the 
-        EventData () : fd (0), length(0), cursor(0), buffer() {};
-        int fd;
-        size_t length;
-        size_t cursor;
-        char buffer[kMaxBufferSize];
-    };
-
-
-}
+        void start ();
+        void stop ();
+};
 
 
 #endif
